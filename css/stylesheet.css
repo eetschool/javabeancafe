@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Baseline Smart phone portrait */
+@media (min-width: 320px) {
+  .divBg {
+    background-color: rgb(223, 217, 171); width:300px; margin:auto; padding: 3px;
+  }
+  .divBg h1 {font-size: 14px;}
+  .divBg p {font-size: 10px;}
+}
+
+/* Baseline Smart phone landscape */
+@media (min-width: 480px) {
+  .divBg {
+    background-color: rgb(223, 217, 171); width:400px; margin:auto; padding: 6px;
+  }
+  .divBg h1 {font-size: 18px;}
+  .divBg p {font-size: 12px;}
+}
+
+/* Baseline Tablet portrait */
+@media (min-width: 768px) {
+  .divBg {
+    background-color: rgb(223, 217, 171); width:650px; margin:auto; padding: 10px;
+  }
+  .divBg h1 {font-size: 22px;}
+  .divBg p {font-size: 14px;}
+}
+
+/* Baseline Tablet Landscape */
+@media (min-width: 1024px) {
+  .divBg {
+    background-color: rgb(223, 217, 171); width:9000px; margin:auto; padding: 15px;
+  }
+  .divBg h1 {font-size: 30px;}
+  .divBg p {font-size: 18px;}
+}
+
+/* Baseline Desktop */
+@media (min-width: 1200px) {
+  .divBg {
+    background-color: rgb(223, 217, 171); width:1000px; margin:auto; padding: 20px;
+  }
+  .divBg h1 {font-size: 40px;}
+  .divBg p {font-size: 32px;}
+}
+
+header {
+  align-items: center;
+  background-color: rgb(126, 0, 0);
+  display: flex;
+  font-family: 'Bitter', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+body {
+  display: inline-block;
+  align-items: stretch;
+  flex: 1;
+}
+
+body img {
+  display: block;
+  margin: 20px auto;
+  width: 30%;
+  height: auto;
+}
+
+div {
+  background-color: rgb(136, 62, 36);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.adobe.com/fonts/athelas#details-section+athelas-regular);
+}
+
+h1 {
+  font-family: 'Bitter', sans-serif;
+  color: rgb(25, 19, 18);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+}
+
+h2 {
+  color: rgb(25, 19, 18);
+  font-family: "Bitter";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2em;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(223, 217, 171);
+  font-family: "Bitter";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: "Bitter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+nav {
+  margin-left: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(223, 217, 171);
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer {
+  align-items: center;
+  background-color: rgb(25, 19, 18);
+  clear: both;
+  color: rgb(223, 217, 171);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 20px;
+  text-align: right;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+  width: 120px;
+}
+
+footer img {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 30%;
+  height: auto;
+}
+
+main {
+  background-image: url("/images/background_pic-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+main img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-content {
+  background-color: rgb(136, 62, 36);
+  display: list-item;
+  float: right;
+  font-family: 'Bitter', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.image-text-container {
+  background-image: url(images/background_pic-min.jpg);
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+.image-text-container h3 {
+  color: rgb(223, 217, 171);
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  max-width: 600px;
+}
+
+.mission-statement {
+  background-color: rgb(213, 217, 171)
+}
+
+.image-sidebar {
+  float: left;
+  width: 20%;
+}
+
+.about-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: right;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  flex: 1;
+}
+
+.sidebar {
+  flex: 0 1 30%;
+  margin-right: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(25, 19, 18);
+  padding: 10px;
+}
+
+.fa-google {
+  background: rgb(126, 0, 0);
+  color: rgb(223, 217, 171);
+}
+
+.fa-facebook {
+  background: rgb(73, 16, 0);
+  color: rgb(223, 217, 171);
+}
